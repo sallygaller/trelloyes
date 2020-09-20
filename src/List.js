@@ -14,13 +14,15 @@ import Card from './Card'
 import './List.css';
 
 export default function List(props) {
+    const cards = Array.from(props.cards);
+    console.log(cards)
     return (
         <section className='List'>
             <header>
                 <h2>{props.header}</h2>
             </header>
             <div className='List-cards'>
-                {props.cards.map((card => 
+                {cards.map((card => 
                     <Card 
                         //props for Cards component
                         key={card.id}
