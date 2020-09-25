@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected when the Card content is long 1`] = `
+<div
+  className="Card"
+>
+  <h3 />
+  <p>
+    Blah blah blah blah blah blah blah blah blah blah blah
+  </p>
+</div>
+`;
+
+exports[`renders the UI as expected when the title is blank 1`] = `
+<div
+  className="Card"
+>
+  <h3>
+    
+  </h3>
+  <p />
+</div>
+`;

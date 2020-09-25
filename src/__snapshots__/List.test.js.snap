@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected if there are many cards 1`] = `
+<section
+  className="List"
+>
+  <header>
+    <h2 />
+  </header>
+  <div
+    className="List-cards"
+  />
+</section>
+`;
